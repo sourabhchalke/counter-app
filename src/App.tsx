@@ -5,7 +5,8 @@ import MyButton from './components/Button';
 function App() {
   return (
     <div className="App">
-      <MyButton/>
+      <MyButton text='Click ME'/>
+      <MyButton text='Click ME Again'/>
     </div>
   );
 }

@@ -1,7 +1,15 @@
 import React from "react";
 
-const MyButton:React.FC=()=>{
-    return <button></button>
+interface MyProps{
+    text:string,
+}
+
+const MyButton:React.FC<MyProps>=(props)=>{
+    return <>
+        <button>
+            {props.text}
+       </button>
+    </>
 }
 
 export default MyButton;
