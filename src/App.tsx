@@ -5,7 +5,7 @@ import MyButton from './components/Button';
 function App() {
   return (
     <div className="App">
-      <MyButton text='Click ME'/>
+      <MyButton onClick={()=>alert("Button Clicked")} text='Click ME'/>
       <MyButton text='Click ME Again'/>
     </div>
   );
