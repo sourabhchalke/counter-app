@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <MyButton onClick={()=>alert("Button Clicked")} text='Click ME'/>
-      <MyButton text='Click ME Again'/>
+      {/* <MyButton text='Click ME Again'/> */}
     </div>
   );
 }
